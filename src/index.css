@@ -1,7 +1,30 @@
 body {
   background-color: springgreen;
+  font-family: sans-serif;
 }
 p {
   color: forestgreen;
   font-size: 20px;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.promo_block {
+  border: 1px solid;
+  border-radius:  8px;
+}
+.promo_text {
+  padding: 10px 20px;
+}
+.promo_img {
+background-color: radial-gradient(circle, orange, forestgreen, transparent);
+width: 40px;
+height: 40px;
+position: absolute;
+height: 100%;
+background-size: contain;
+right: 20px;
+top: calc(50% - 20px);
 }

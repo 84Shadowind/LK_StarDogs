@@ -16,6 +16,7 @@ const App = () => {
       <Promo text="Second"/>
       <Promo text={4*10}/>
       <Promo />
+      {promoData.map (el => <Promo text = {el}/>)}
       </div>
     </div>
   )
