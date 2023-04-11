@@ -7,7 +7,9 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 import "./index.css";
+
 
 // Взять из html-файла тег, внутри которого будет работать React
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -19,19 +21,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // root.render(
 //   React.createElement(
-//     "div", 
-//     {title: "doggy"}, 
+//     "div",
+//     {title: "doggy"},
 //     React.createElement("h1", null, "Hello React"),
 //     React.createElement("p", {style:{color: "red"}}, "DogFood shop")
 //   )
 // )
 
-root.render(
-  <div>
-    <h1>Hello React</h1>
-    <p>DogFood 
-      <br />
-    shop</p>
-    <i />
-  </div>
-)
+
+root.render(</App>)
